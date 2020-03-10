@@ -46,3 +46,7 @@ Terraform creates a state file with the `*.tfstate` extension to store the resul
 Terraform modules may be packaged in sub-directories, or optionally, in git repositories for code reuse.  The main logic can be contained in a repo that can combine one or more modules to build a full end-to-end solution. That main repo may contains pointers to multiple modules, each of which can reside in its own github repo. These modules are typically self-contained functions that may need to be run in a certain sequence. Some of the components may be shared across different implementations. 
 
 {% include_relative terraform_modules.md %}
+
+### Example of installation of OCP 4.x with terraform
+
+https://blog.openshift.com/deploying-a-user-provisioned-infrastructure-environment-for-openshift-4-1-on-vsphere/
